@@ -20,7 +20,7 @@ body {
     background-color: black;
     max-width: 20%;
     justify-content: space-between;
-   max-width: 30%;
+    max-width: 30%;
 
 }
 
@@ -92,66 +92,151 @@ body {
 }
 
 .sobre {
-    width: 100%;
-    height: auto;
     display: flex;
-    justify-content: left;
-   text-align: center;
-   
-}
-
-#imagemfilme{
-   max-width: 100%;
-}
-
-.sobre2{
-    max-width: 50%;
-    padding: 3vw;
-    border-right: 1px solid black;
-}
-.sobre2 h1{
-    font-size: 3vw;
-}
-
-.sobre2 p{
-    font-size: 1.3vw;
-padding: 20px;
-
-}
-
-
-.ementa{
-        padding: 5vw;
-        margin-left: 20px;
-}
-
-
-.ementa h1{
-    font-size: 3vw;
-}
-
-.linha {
-    font-size: 1vw;
-}
-
-.ementa ul li{
-    font-size: 1em;
     text-align: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+
+
+}
+
+#imagemfilme {
+    max-width: 100%;
+    height: auto;
+}
+
+.sobre2 {
+    max-width: 50%;
+    box-sizing: border-box;
+    padding: 1vw;
+    margin: 0;
+    border-right: 1px solid black;
+
+}
+
+.sobre2 h1 {
+    font-size: 3vw;
+}
+
+.sobre2 p {
+    font-size: 1.3vw;
+    padding: 20px;
+
+}
+
+
+.ementa {
+    max-width: 50%;
+
+    padding: 1vw;
+    margin: 0 auto;
+
+
+}
+
+
+.ementa h1 {
+    font-size: 3vw;
+}
+
+.ementa ul li {
+
+    text-align: left;
     list-style-type: none;
-    padding: 10px;
-    gap: 20px;
-    display: inline-flexbox;
+
+    display: flex;
+
 }
 
-.ementa span{
-    font-size: 1.3em;
+.ementa p {
+    margin-left: 1vw;
+    flex-direction: column;
+    margin-right: 4vw;
+    font-size: 0.9vw;
+
 }
 
-.ementa img{
-    width: 50px;
-    padding: 5px;
+.ementa span {
+    font-size: 1.1vw;
+    text-align: center;
+    font-weight: bold;
+
 }
 
-.inscricao{
+.ementa img {
+    height: 5vw;
+    width: 4.5vw;
+    padding: 0.3vw;
+}
 
+.inscricao {
+    background-color: #000000;
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-left: 3vw;
+    padding: 1vw;
+    text-align: center;
+
+}
+
+#inscricao2 {
+    background-color: white;
+    text-align: center;
+    max-width: 40%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 1vw;
+    font-weight: bold;
+
+
+}
+
+label {
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+input[type="text"],
+select {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #00000048;
+}
+
+.inscricao h1 {
+    font-size: 3vw;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1vw;
 }
