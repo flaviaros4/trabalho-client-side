@@ -12,7 +12,7 @@ document
         };
         console.log("Dados:", formData);
 
-        fetch("https://flaviaros4.github.io/trabalho-client-side/", {
+        fetch("http://localhost:5500", {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json",
