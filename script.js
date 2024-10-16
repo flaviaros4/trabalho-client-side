@@ -19,13 +19,7 @@ document
             },
             body: JSON.stringify(formData),
         })
-            .then((response) => response.json())
-            .then((data) => {
-                console.log("Success:", data);
+           
                 alert("Inscrição realizada com sucesso!");
-            })
-            .catch((error) => {
-                console.error("Error:", error);
-                alert("Ocorreu um erro ao realizar a inscrição.");
-            });
+         
     });
